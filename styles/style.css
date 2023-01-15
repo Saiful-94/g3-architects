@@ -2,6 +2,8 @@
 body{
     font-family: 'Work Sans', sans-serif;
     background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* header description */
@@ -169,7 +171,7 @@ header img{
 }
 .ex{
     font-style: normal;
-    
+
 }
 .step-title{
     width: 852px;
@@ -283,6 +285,11 @@ header img{
     padding-top: 50px;
     padding-right: 340px;
     color: #424242;
+ }
+ @media screen and (max-width:576px) {
+    .header, .steps, .logos, .top, .nav-bar, .team-img, .feature, .architect-info {
+        flex-direction: column;
+    }
  }
     
 
