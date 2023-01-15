@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+    background-color: white;
 }
 
 /* header description */
@@ -65,9 +66,7 @@ header img{
     margin-right: 240px;
     margin-bottom: 45px;
 } 
-/* .team{
-    display: flex;
-} */
+
 .team-img{
     display: grid;
     grid-template-columns: repeat(2, 2fr); 
@@ -78,14 +77,13 @@ header img{
 }
 .feature{
     display: flex;
+    margin-bottom:30px;
 }
 .article{
     width: 537px;
     height: 304px;
     margin-left: 80px;
-    margin-top: 300px;
-    
-
+    margin-top: 300px;  
 }
 .article-title{
     font-size: 45px;
@@ -116,7 +114,6 @@ header img{
 .architect-info{
     display: flex;
     gap:10px;
-    background-color: aquamarine;
     width: 1440px;
     height: 1059px;
     margin-left: 240px;
@@ -142,21 +139,40 @@ header img{
 .steps{
     width: 586px;
     height: 744px;
-    background-color: beige;
-    margin-left: 40px;
+    margin-left: 10px;
     display: flex;
+    
 }
-.step-1{
-    background-color: #FFFFFF;
-    margin-top: 30px;
+.step-1{ 
+    
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-right: 96px;
-    width: 514px;
-    height: 111px;
+    border-radius: 8px;
+    width: 600px;
+    height: 150px;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.expe{
+    width: 230px;
+    height: 125px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color:#FFFFFF;
+    
+}
+.year{
+    font-size: 45px;
+    padding: 5px;
+}
+.ex{
+    font-style: normal;
+    
 }
 .step-title{
-    width: 252px;
+    width: 852px;
     height: 23px;
     padding-top:10px;
     margin-left: 33px;
@@ -204,6 +220,10 @@ header img{
     font-size:45px;
     margin-top:10px;
     margin-bottom: 10px;
+}
+.fa-envelope{
+    margin-top: 40px;
+    
 }
 .award{
     width: 242px;
